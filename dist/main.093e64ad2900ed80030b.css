@@ -1,0 +1,398 @@
+
+.container[data-v-b10e4fa8] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.container.off[data-v-b10e4fa8] {
+  display: none;
+}
+.container .book[data-v-b10e4fa8] {
+  z-index: 8;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: url(/dist/a6076a7d0d5a3abc043440d2bc9d6f33.png) repeat;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.container .leftbook[data-v-b10e4fa8] {
+  left: 0;
+  border-right: 2px solid #602424;
+}
+.container .leftbook.on[data-v-b10e4fa8] {
+  position: relative;
+  left: -50%;
+}
+.container .rightbook[data-v-b10e4fa8] {
+  right: 0;
+}
+.container .leftbook.off[data-v-b10e4fa8] {
+  display: none;
+}
+.container .rightbook.on[data-v-b10e4fa8] {
+  right: -50%;
+}
+.container .rightbook.off[data-v-b10e4fa8] {
+  display: none;
+}
+.container .jianbook[data-v-b10e4fa8] {
+  z-index: 9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -332px;
+  margin-left: -176px;
+  width: 362px;
+  height: 665px;
+  background: url(/dist/0c0ee406a1096901d9344af940f7c455.png) no-repeat right top / 366px 665px;
+  cursor: pointer;
+}
+.container .jianbook.on[data-v-b10e4fa8] {
+  display: none;
+}
+.container .jianbook .tit[data-v-b10e4fa8] {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: 152px;
+}
+.container .jianbook .tit1[data-v-b10e4fa8] {
+  margin-top: 128px;
+  background-image: url(/dist/9280ca0bcbececcf4f05825cd6158f46.png);
+}
+.container .jianbook .tit2[data-v-b10e4fa8] {
+  margin-top: 9px;
+  background-image: url(/dist/7340affb5365713f2d403e8ecdff27f0.png);
+}
+.container .jianbook .tit3[data-v-b10e4fa8] {
+  margin-top: 9px;
+  background-image: url(/dist/c151166dcb2e35244e16b6f3b5faf16b.png);
+}
+.container .jianbook .tit4[data-v-b10e4fa8] {
+  margin-top: 9px;
+  background-image: url(/dist/51b2a0416a5877458872f1b2a5b8ac85.png);
+}
+
+.read[data-v-238e4524] {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 70px 20px 0;
+  box-sizing: border-box;
+}
+.read ul[data-v-238e4524] {
+  width: 100%;
+}
+.read ul li[data-v-238e4524] {
+  width: 100%;
+  text-indent: 10px;
+  height: 35px;
+  font: 18px/35px "Microsoft yahei Light";
+  color: #000;
+  border-bottom: 2px solid #000;
+  margin-top: 15px;
+}
+.read ul li i[data-v-238e4524] {
+  float: left;
+  width: 35px;
+  height: 35px;
+  background: url(/dist/161fa9c71da887b379c4e26445e70715.png) no-repeat center / 15px;
+}
+
+.app[data-v-3346f46d] {
+  width: 100%;
+  height: 100%;
+  background: url(/dist/e6858217168723791494226b9ae48e40.jpg) no-repeat center / cover;
+}
+.app .menu[data-v-3346f46d] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 160px;
+  height: 150px;
+}
+.app .menu li[data-v-3346f46d] {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 20px;
+  text-align: center;
+  font: 18px/50px "Microsoft Yahei Light";
+  margin-top: 20px;
+}
+
+.poemList[data-v-83a9dd9a] {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 70px 20px 0;
+  box-sizing: border-box;
+}
+.poemList li[data-v-83a9dd9a] {
+  width: 100%;
+  font: 16px/24px "Microsoft Yahei Light";
+  text-align: center;
+}
+.poemList .poemType[data-v-83a9dd9a] {
+  height: 30px;
+  line-height: 30px;
+  font-size: 24px;
+  border-bottom: 2px solid #ccc;
+}
+.poemList .add[data-v-83a9dd9a] {
+  height: 30px;
+  margin-top: 10px;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+}
+.poemList .add p[data-v-83a9dd9a] {
+  width: 30px;
+  height: 30px;
+}
+.poemList .add .pre[data-v-83a9dd9a] {
+  float: left;
+  background: url(/dist/8e88764e26fcc323e8aee685b3f4019a.png) no-repeat center / cover;
+}
+.poemList .add .next[data-v-83a9dd9a] {
+  float: right;
+  background: url(/dist/c32c69488d71246c5c9e47620358b44c.png) no-repeat center / cover;
+}
+
+.poem[data-v-34cf4483] {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+.write[data-v-3f658dc1] {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 70px 20px 0;
+  box-sizing: border-box;
+}
+.write li[data-v-3f658dc1] {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-top: none;
+  background: #fff;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.write li[data-v-3f658dc1]:first-child {
+  border-top: 1px solid #ccc;
+}
+.write li p[data-v-3f658dc1] {
+  font-size: 14px;
+}
+.write .over[data-v-3f658dc1] {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.write .over.on[data-v-3f658dc1] {
+  display: block;
+}
+.write .alert[data-v-3f658dc1] {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 90%;
+  height: 110px;
+}
+.write .alert.on[data-v-3f658dc1] {
+  display: block;
+}
+.write .alert p[data-v-3f658dc1] {
+  text-align: center;
+  font-weight: bold;
+}
+.write .alert input[data-v-3f658dc1] {
+  display: block;
+  width: 80%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  margin: 10px auto;
+  text-align: center;
+}
+.write .alert button[data-v-3f658dc1] {
+  display: block;
+  width: 50px;
+  height: 25px;
+  border-radius: 10px;
+  outline: none;
+  background: #fff;
+  border: 1px solid #000;
+  text-align: center;
+  margin: 5px auto;
+}
+.write .alert .close[data-v-3f658dc1] {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background: url(/dist/1d1fac41b636ec2d0c9f01666c182baf.png) no-repeat center / cover;
+}
+
+.result {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 70px 20px 0;
+  box-sizing: border-box;
+  background: url(/dist/5a8d1a8d1daf54a9b9e1192bbd108179.jpg) no-repeat fixed;
+  background-position: center;
+  z-index: 1;
+}
+.result:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: inherit;
+  filter: blur(2px);
+  z-index: 2;
+}
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 80%;
+  height: 250px;
+  border: 1px solid #000;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  color: #000;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+  z-index: 11;
+}
+.content .box {
+  margin: auto;
+  height: auto;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 25px;
+}
+.content .box p {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.btn {
+  display: block;
+  width: 60px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.loading[data-v-43f22738] {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/dist/4232910625c12f851f282a111fe48b3e.png) no-repeat center / 50px;
+  transform: rotate(0);
+  animation: move 1s infinite;
+}
+@keyframes move {
+from {
+    transform: rotate(0);
+}
+to {
+    transform: rotate(360deg);
+}
+}
+.loading.on[data-v-43f22738] {
+  display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Microsoft yahei Light";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: #f8f8f9;
+}
+#container{
+    position: relative;
+    width: 100%;
+    height: 100%;;
+}
+.header{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.header.on{
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+.header .goback{
+    position: absolute;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    background: url(/dist/8b9c4cae123dc6098be17261244a91c3.png) no-repeat center/cover;
+}
+.header .title{
+    width: 200px;
+    height: 100%;
+    margin: 0 auto;
+    background: url(/dist/a6161d8dc935078b60e489f19a46af6c.png) no-repeat 20px 0px/400px 40px;
+}
+
+
+

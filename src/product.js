@@ -1,0 +1,19 @@
+//模拟数据
+export default[
+    {
+        id:1,
+        type:"乐府诗集"
+    },
+    {
+        id:2,
+        type:"唐诗"
+    },
+    {
+        id:3,
+        type:"宋词"
+    },
+    {
+        id:4,
+        type:"元曲"
+    }
+]
